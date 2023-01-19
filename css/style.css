@@ -378,3 +378,66 @@ label {
 }
 .nav-style .owl-nav div:hover{background: #507bd6;color: #fff}
 
+/* features */
+
+.single-features.mb-30 {
+	width: 370px;
+}
+.single-features {
+	overflow: hidden;
+	position: relative;
+}
+.features-content {
+	  background: #4272d7 none repeat scroll 0 0;
+	  bottom: 0;
+	  left: 0;
+	  padding: 15px 30px 30px;
+	  position: absolute;
+	  top: 0;
+	  transform: translateY(77%);
+	  transition: all 0.5s ease 0s;
+	  right: 0;
+  }
+.single-features:hover .features-content{transform: translateY(0%)}
+  .features-img > img {
+	  width: 100%;
+  }
+.features-title i {
+	color: #fff;
+	font-size: 30px;
+	line-height: 25px;
+	margin-right: 10px;
+  }
+.features-title {
+	margin-bottom: 15px;
+  }
+.features-content h3 {
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 17px;
+	position: relative;
+	top: -2px;
+  }
+.features-content > p {
+	  color: #e5e5e5;
+	  font-size: 15px;
+	  line-height: 25px;
+  }
+  .features-content > a {
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+}
+  
+.row {
+	display: flex;
+  }
+  .single-features {
+	margin-right: 35px;
+  }
+  .single-features:last-child {
+	margin-right: 0;
+  }
+  
