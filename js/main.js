@@ -32,6 +32,7 @@
     $('.project-active').owlCarousel({
         loop: true,
         nav: true,
+        autoplay: false,
         dots: false,
         navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>'],
         responsive: {
