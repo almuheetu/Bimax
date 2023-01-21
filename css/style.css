@@ -699,3 +699,42 @@ label {
 .project-content h4 a {
 	text-decoration: none;
 }
+/* chose  */
+.video-bg {
+	position: relative;
+	width: 570px;
+	margin-right: 50px;
+}
+.rows {
+	display: flex;
+}
+.video-bg img {
+	width: 100%;
+}
+.video-bg a {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 62px;
+}
+.chose-list h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555555;
+}
+.chose-list h3 i{margin-right:10px}
+
+.working-aea {
+	background-size: cover;
+	background-position: center bottom;
+}
+.section-title p {
+	font-weight: 700;
+	font-size: 20px;
+  line-height: 35px;
+  color:#555
+}
