@@ -699,18 +699,22 @@ label {
 .project-content h4 a {
 	text-decoration: none;
 }
+
 /* chose  */
 .video-bg {
 	position: relative;
 	width: 570px;
 	margin-right: 50px;
 }
+
 .rows {
 	display: flex;
 }
+
 .video-bg img {
 	width: 100%;
 }
+
 .video-bg a {
 	position: absolute;
 	top: 50%;
@@ -721,20 +725,169 @@ label {
 	color: #fff;
 	font-size: 62px;
 }
+
 .chose-list h3 {
 	font-size: 16px;
 	font-weight: 700;
 	color: #555555;
 }
-.chose-list h3 i{margin-right:10px}
+
+.chose-list h3 i {
+	margin-right: 10px
+}
+
+.working-area {
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.section-title3 p {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 35px;
+	color: #555
+}
+
+.chose-list h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555555;
+}
+
+.chose-list h3 i {
+	margin-right: 10px
+}
 
 .working-aea {
 	background-size: cover;
 	background-position: center bottom;
 }
-.section-title p {
+
+.section-title3 h2::before {
+	background: #999 none repeat scroll 0 0;
+	bottom: 130px;
+	content: "";
+	height: 2px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	width: 35px;
+	top: 0;
+}
+
+.section-title3 p {
 	font-weight: 700;
 	font-size: 20px;
-  line-height: 35px;
-  color:#555
+	line-height: 35px;
+	color: #555
+}
+
+.working-btn {
+	margin-top: 50px;
+}
+
+.section-title3 {
+	margin-right: 630px;
+}
+
+/* blog */
+.blog-thumb {
+	position: relative;
+	float: left;
+}
+
+.blog-thumb span {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #1f2636;
+	color: #fff;
+	width: 90%;
+	padding: 5px 10px;
+	line-height: 1;
+}
+
+.blog-content h3 a {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 11px;
+	display: block;
+}
+
+.blog-content span a {
+	color: #666;
+}
+
+.blog-content span a i {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.blog-content span i {
+	margin-right: 2px;
+}
+
+.blog-content {
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+.blog-content span {
+	margin-right: 10px;
+	font-size: 13px;
+	color: #555555;
+}
+
+.blog-item {
+	width: 570px;
+}
+
+
+.blog-active .owl-nav div {
+	position: absolute;
+	top: -66px;
+	left: 250px;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+
+.blog-active .owl-nav div.owl-prev {
+	left: 215px;
+}
+
+
+.section-title5 h2::before {
+	background: #999 none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 2px;
+	left: -289px;
+	margin: auto;
+	position: absolute;
+	right: 855px;
+	width: 35px;
+	top: 30px;
+}
+
+.section-title5 h2 {
+	text-align: left;
+}
+
+.blog-content h3 a {
+	text-decoration: none;
+}
+
+.blog-content span a {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.blog-content h3 {
+	font-size: 18px;
 }
