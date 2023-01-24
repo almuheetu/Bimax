@@ -846,7 +846,7 @@ label {
 
 .blog-active .owl-nav div {
 	position: absolute;
-	top: -66px;
+	top: -75px;
 	left: 250px;
 	border-radius: 50%;
 	border: 1px solid #ddd;
@@ -859,6 +859,7 @@ label {
 
 .blog-active .owl-nav div.owl-prev {
 	left: 215px;
+	top: -75px;
 }
 
 
@@ -867,12 +868,12 @@ label {
 	bottom: 0;
 	content: "";
 	height: 2px;
-	left: -289px;
+	left: 0px;
 	margin: auto;
 	position: absolute;
 	right: 855px;
 	width: 35px;
-	top: 30px;
+	top: -140px;
 }
 
 .section-title5 h2 {
@@ -890,4 +891,27 @@ label {
 
 .blog-content h3 {
 	font-size: 18px;
+}
+
+
+.section-title6.mb-30 {
+	width: 570px;
+  }
+  .section-title.section-title5.mb-30 {
+	width: 570px;
+  }
+  .col {
+	display: flex;
+  }
+  .blog-content h3 {
+	text-align: left;
+  }
+  .blog-content p {
+	text-align: left;
+  }
+  .lets {
+	text-align: left;
+}
+.section-title.section-title5.mb-30 h2 {
+	margin-bottom: 45px;
 }
