@@ -896,22 +896,161 @@ label {
 
 .section-title6.mb-30 {
 	width: 570px;
-  }
-  .section-title.section-title5.mb-30 {
+}
+
+.section-title.section-title5.mb-30 {
 	width: 570px;
-  }
-  .col {
+}
+
+.col {
 	display: flex;
-  }
-  .blog-content h3 {
-	text-align: left;
-  }
-  .blog-content p {
-	text-align: left;
-  }
-  .lets {
+}
+
+.blog-content h3 {
 	text-align: left;
 }
+
+.blog-content p {
+	text-align: left;
+}
+
+.lets {
+	text-align: left;
+}
+
 .section-title.section-title5.mb-30 h2 {
 	margin-bottom: 45px;
 }
+
+
+
+.blogs-content {
+	display: flex;
+	margin-left: 25px;
+}
+
+.blogs-ext h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+}
+
+.blogs-ext span {
+	font-size: 13px;
+	margin-left: 15px;
+	/*! margin-top: -24px; */
+}
+
+.blogs p {
+	margin-left: 25px;
+	margin-top: -24px;
+	font-style: italic;
+}
+
+
+.section-title5.section-title6.mb-30 h2 {
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 32px;
+}
+.blogs p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+/* footer */
+
+.footer-bg{background: #171a21}
+
+
+.footer-widget img {
+  margin-bottom: 30px;
+}
+.footer-widget p {
+  color: #999;
+}
+.footer-icon a {
+  background: #1b2334;
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer-icon a:hover {
+  background: #4272d7;
+}
+
+.footer-widget h3 {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.footer-link li a {
+	color: #999;
+	line-height: 30px;
+	position: relative;
+	padding-left: 16px;
+	font-size: 13px;
+}
+.footer-link li a::before {
+	background: #999;
+	height: 5px;
+	width: 5px;
+	content: "";
+	top: 6px;
+	left: 0;
+	position: absolute;
+}
+.contact-list li {
+	color: #999999;
+	font-size: 13px;
+	line-height: 25px;
+}
+.footer-widget input {
+	width: 100%;
+	border: 0;
+	height: 40px;
+	background: #2f3138;
+	padding: 0 15px;
+	color: #fff;
+}
+.footer-widget form button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	border: 0;
+	background: #4272d7;
+	color: #fff;
+	font-size: 15px;
+	padding: 0 15px;
+	font-weight: 700;
+}
+.footer-widget form {
+	position: relative;
+}
+.copyright-area {
+	padding: 30px 0;
+	border-top: 1px solid #23262c;
+}
+.copyright p {
+	margin: 0;
+}
+.footer-bg{background: #171a21}
+.rowar {
+	display: flex;
+  }
+  .cov {
+	width: 250px;
+  }
