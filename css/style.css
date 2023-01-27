@@ -1054,3 +1054,10 @@ label {
   .cov {
 	width: 250px;
   }
+  .cols.cov P {
+	font-size: 13px;
+	/* margin-right: 9px; */
+}
+.cols.cov {
+	margin-right: 60px;
+}
