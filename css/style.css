@@ -1004,13 +1004,14 @@ label {
 	font-size: 13px;
 }
 .footer-link li a::before {
-	background: #999;
+	background: #45484d;
 	height: 5px;
 	width: 5px;
 	content: "";
 	top: 6px;
 	left: 0;
 	position: absolute;
+	/* color: #; */
 }
 .contact-list li {
 	color: #999999;
