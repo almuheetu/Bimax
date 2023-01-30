@@ -1028,7 +1028,7 @@ label {
 }
 .footer-widget form button {
 	position: absolute;
-	right: 0;
+	right: -30px;
 	top: 0;
 	height: 100%;
 	border: 0;
@@ -1061,4 +1061,23 @@ label {
 }
 .cols.cov {
 	margin-right: 60px;
+}
+
+.footer-link li a {
+	text-decoration: none;
+  }
+  .contact-list li {
+	margin-bottom: 8px;
+  }
+  
+  .collss.cov {
+	margin-right: 60px;
+  }
+
+  .footer-widget p {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.copyright p {
+	text-align: center;
 }
