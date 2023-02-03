@@ -1,5 +1,8 @@
 /* XL (laptop) Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu {
+        display: inline;
+    }
     .main-menu ul li .mega-menu {
         left: -100px;
         width: 600px;
@@ -51,6 +54,9 @@
     }
     .features-content > p {
         display: none;
+    }
+    .features-content {
+        display: block;
     }
     .video-bg {
         margin-bottom: 30px;
